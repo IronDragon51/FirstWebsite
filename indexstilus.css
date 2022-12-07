@@ -1,0 +1,187 @@
+﻿@media screen
+{
+
+#elerhetosegek{
+    color: rgb(226, 121, 0);
+}
+
+body
+{
+   text-align: justify;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+
+    
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #1d1d1d;
+    color: rgb(255, 255, 255);
+}
+
+.head{
+
+    font-size: 1.5em;
+    border-collapse: separate;
+    border-spacing: 80px;
+    
+}
+header
+{
+
+    background-image: url('ht.png');
+    color: rgb(228, 207, 207);
+}
+    
+header,footer{
+    
+    font-family: Arial, Helvetica;
+}
+
+
+main
+{
+    text-align: justify;
+    
+}
+
+.lablec 
+{
+    font-size: 0.9em;
+    height: 200px;
+    margin-top: 3em;
+}
+.lablec1
+{
+    text-transform:uppercase;
+    text-align: center;
+}
+.lablec2
+{
+    margin-top: 4px;
+    border-collapse: separate;
+    border-spacing: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+/* unvisited link */
+a:link {
+    color: rgb(185, 8, 8);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(53, 170, 53);
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+nav
+{
+    visibility: hidden;
+
+}
+
+.filmpad{gap: 5px;}
+
+figure img {width: 300px;}
+figure {margin: 0px;}
+figcaption {text-align: center;}
+
+
+/*desktop*/
+    
+    
+/* desktop
+@media screen and (max-width: 992px)
+{
+    figure img {width: 110%;}
+    
+}
+
+/*desktop*/
+/* @media screen and (max-width: 576px)
+{
+    figure img {width: 160%;}
+    
+} 
+*/ 
+
+
+
+.beke2
+{
+    width: 700px;
+    color: rgb(255, 125, 78);
+    padding-bottom: 70px;
+}
+
+.filmek{
+    color: orange;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+    width: 400px;
+}
+
+#nyit{font: italic;
+    font-size: 0.6em;}
+    
+    
+    .left-aside{
+        width: 40%;
+        float: left;
+    }
+    
+    .right-aside{
+        
+        text-align: center;
+        float: right;
+        width: 40%;
+    }
+    
+    .aside-class{
+        margin-top: 30px;
+        margin-left: 60px;
+        margin-right: 60px;
+        color: aqua; 
+        padding-bottom: 40px;
+        height: 500px;
+    }
+    
+    
+    h1{
+        font-size: 2em;
+    }
+    
+    h2{ font-size: 1.5em;}
+    h3{font-size: 1.3em;}
+    
+    
+    
+    
+    
+    
+    
+    
+}
+    
+    @media print {
+        .img-fluid{
+            max-width: 200px;
+        }
+    }

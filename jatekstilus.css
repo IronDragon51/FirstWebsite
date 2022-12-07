@@ -1,0 +1,172 @@
+﻿
+@media print {
+    .kepek{
+        max-width: 150px;
+    }
+    text{
+        padding: 5px;
+    }
+
+
+}
+
+header
+{
+    background-image: url('ht.png');
+    font-size: 1.5em;
+    
+    
+}
+header,footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jatekok
+{
+    text-align: center;
+    
+}
+
+body
+{
+    
+    text-align: justify;
+    min-height: 100vh;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #e4b291;
+}
+
+
+
+#kontraszt{ gap: 5px;
+    font-style: italic;
+color: rgb(149, 183, 223);}
+
+main
+{
+    
+    background-clip: content-box;
+
+    padding-top: 19px;
+    font-family: Arial, Helvetica;
+    text-align: right;
+    padding-left: 5%;
+    
+    float: left !important;
+     
+}
+
+aside
+{
+    background-clip: border-box;
+
+    padding: 15px;
+    text-align: justify;
+    
+    padding-right: 5%;
+
+    display: flex;
+}
+
+footer {
+
+    visibility: visible;
+    position: relative;
+    height: 200px;
+    margin-top: 3em;
+}
+
+.r6class, .sakkclass, .shadowofwarclass, .thewitcherclass, .bf5class, .jackboxclass
+{
+    font-weight: bold;
+    height: 150px;
+    padding-bottom: 55px;
+}
+
+
+.text{
+    width: 600px;
+    padding: 12px;
+}
+
+h1{
+    text-align: center;
+    color: #885644;
+    text-transform: uppercase;
+}
+h3{
+    color: #9c3838;
+    text-transform: uppercase;
+}
+
+.idezet{font-style: italic;font-weight: normal;}
+
+
+
+
+#tartalom{display: none;}
+
+
+.kepekvideok{text-align: justify;}
+
+
+.lablec 
+{
+    font-size: 0.9em;
+    height: 200px;
+    margin-top: 3em;
+}
+.lablec1
+{
+    text-transform:uppercase;
+    text-align: center;
+}
+.lablec2
+{
+    margin-top: 4px;
+    border-collapse: separate;
+    border-spacing: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:link {
+    color: rgb(185, 8, 8);
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}

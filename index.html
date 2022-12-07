@@ -1,0 +1,288 @@
+
+<!-- 4. A th td típusú felsorolás helyett ul li-t választottam mert többlépcsős felsorolást kellett használnom -->
+<!-- 10. Az első társértékelő rossz lapot nézett, mert nem írtam oda, hogy a 
+bolt.html nél van háromféle elrendezés, ettől függetlenül működik (a 2. társértékelő megtalálta, elfogadta)  -->
+<!-- 11. 
+    <h3>Ezek a <a style="font-style: italic;">mostani</a> kedvenc filmjeim</h3> 
+    Csak 1 helyen van inline megadás és ott is csak azért mert fontosanak tartottam kiemelni 
+    egy mondaton belüli stílusváltoztatással, hogy "Ezek a *mostani* kedvenc filmjeim", tehát a készítés óta 
+    vátozhatott ez a lista.
+-->
+<!-- 13. "a taget nem linkként használt az index.html oldalán" - az a bizonyos tag vakok, gyengén látók számára érhető el,
+    így nem látja egy normál felhasználó, nem tudja használni mint egy gombot. 
+    A vakok, gyengén látók számára pedig felajánlja, hogy "Ugrás a tartalomra"
+    (az 1. társértékelő megtalálta, elfogadta)
+-->
+<!-- 15. Csak a Nagy kontrasztos, Javascriptes oldalon térnek el a betűtípusok. 
+    És igen van, ahol küldön sorban van megadva a font-family betűcsaládok, és betűtípusok, de ettől ugyan úgy jól működik -->
+
+<!-- 22. Tökéletesen ki van töltve, nem értem mit nézett el a 2. társértékelő (az 1. társértékelő elfogadta) -->
+<!-- 29. "Nincs a folyószövegben" 
+    nem volt benne kulcsszó amit ki kellett volna emelni-->
+<!-- 45. "Nem minden oldalon"  
+nem szerepelt a feladat leírásban hogy minden oldalon kell lennie
+-->
+<!-- 46. "index" A képek pozíciója, mérete, kérdések, válaszok és a input szöveges mezők is 
+    elhatárolják egymástól a 3 fő részt az oldalon-->
+<!-- 47. van ilyen, méghozzá minden oldalon. Ugrás a tartalomra néven. És azért "display none" (2. társértékelő kritikája) mert
+csak a vakok és gyengén látók számára releváns ez a funkció, a normál felhasználó számára fölösleges, hiszen csak az 1 soros 
+ismétlődő header-t hagyjuk ki vele -->
+<!-- 48. "Túl rövid? Nem biztos" - még a társértékelő is megkérdőjelezi saját magát. 
+    Egy 6 másodperces videóhoz 2 sor lényegkiemelő leírás szerintem elegendő. (a 2. társértékelő elfogadta)-->
+<!-- 53. A társértékelők a warningokra panaszkodnak azonban a warning elfogadható, (legalábbis előző félévben
+még így volt) csak hiba ne legyen benne -->
+<!-- 55. A társértékelők a warningokra panaszkodnak azonban a warning elfogadható, (legalábbis előző félévben
+még így volt) csak hiba ne legyen benne -->
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="hu">
+<title>Főoldal - Papp Máté honlapja</title>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="indexstilus.css">
+
+
+<body>
+    <nav>
+        <a href="#tartalom" style="display: none;">Ugrás a tartalomra</a>
+    </nav>
+
+    <header class="head">
+        
+        <table>
+            <tr>
+                <td><a href="kepek/id.png" target="_blank"><img src="kepek/id.png" width="55" alt="dragon logo"></a></td>
+                <td><a href="index.html" style="color: aquamarine;">Főoldal</a></td>
+                <td><a href="muveszet.html" >Művészet</a></td>
+                <td><a href="jatek.html" >Játék</a></td>
+                <td><a href="bolt.html" >Bolt</a></td>
+
+            </tr>
+        </table>
+
+    </header>
+
+
+
+    <main>
+        <div class="aside-class">
+            <aside class="right-aside">
+                <section class="kep-aside">
+                    <figure class="kep">
+                        <img src="kepek/npm.png" alt="profilkép" width="175" class="img-fluid">
+                    </figure>
+                </section>
+    
+                <section  class="kep-aside">
+                        <figure class="kep">
+                            <img src="kepek/kikotoSSkib.jpeg" width="211" alt="kikötő" class="img-fluid">
+                    
+                            <figcaption>
+                                <p>Nap végi csónakázás</p>
+
+                            </figcaption>
+                        </figure>
+                </section>
+    
+            </aside>
+    
+    
+            <aside class="left-aside">
+                <article>
+                    <section>
+                        <h1 id="tartalom">Én és a hobbijaim</h1>
+                    </section>
+                    <section>
+                        <h2>Bemutatkozás</h2>
+                    </section>
+                    <section>
+                        <p>
+                            Papp Máté vagyok, 20 éves Budapesten élek a családommal. 
+                            3 testvérem van, egy húgom és
+                            két bátyám. 
+                        </p>
+                        <p>Az Eötvös Lóránd Tudomány Egyetemen tanulok jelenleg, programtervező informatikus szakon. </p>
+                    </section>
+                </article>
+                
+                <article>
+                    
+                    <p>
+                        Szabadidőmben sokat vagyok a barátaimmal és a
+                        barátnőmmel. Amikor erre nincs lehetőség, akkor online játszunk vagy
+                        beszélgetünk.
+                    </p>
+                </article>
+            </aside>
+        </div>
+
+
+        <div class="beke2">
+            <article>
+                Amikor egyedül vagyok, általában fotózok, rajzolok (papírra vagy gépen
+                rajztáblával), zenét/podcastet hallgatok, vagy filmet/sorozatot nézek.
+            </article>
+    
+    
+    
+            
+            
+            <article class="filmek">
+                <form method="post" action="mailto:irondragon551@gmail.com">
+                    <div class="filmpad">
+                        
+                                <label  style="margin-left: 25px;"> Neked melyik a kedvenc filmed?  </label>
+                                <input type="text" class="sor" name="sor" size="60" maxlength="55">
+                                        
+                            
+                                
+                                <label  style="margin-left: 25px;"> Neked melyik a kedvenc sorozatod?  </label>
+                                <input type="text" class="sor" name="sor" size="60" maxlength="55">
+                         
+                        
+                    </div>
+                    <table>
+                        <caption>
+                            <h3>Ezek a <a style="font-style: italic;">mostani</a> kedvenc filmjeim</h3>
+                            <details>
+                                <summary id="nyit"  style="font-size: 1.1em; color: rgb(230, 202, 167);">Nyisd le!</summary>
+                                
+                                    <ul>
+                                    
+                                        <li>Interstellar</li>
+                                        <li>Squid Game</li>
+                                        <li>A mi kis falunk</li>
+                                        <li>The Joker</li>
+                                        <li>Money Heist
+                                            <ul>
+                                                <li>1.évad</li>
+                                            </ul>
+                                        </li>
+                                        <li>Breaking Bad
+                                            <ul><li>3.évad</li></ul>
+                                        </li>
+                                        <li>Family Guy
+                                            <ul>
+                                                <li>1.évad</li>
+                                                <li>12.évad</li>
+                                                <li>13.évad</li>
+                                            </ul>
+                                        </li>
+                                        <li>South Park
+                                            <ul><li>6.évad</li><li>8.évad</li></ul>
+                                        </li>
+                                        <li>Back to the future</li>
+                                        <li>Green book</li>
+                                    </ul>
+                                
+                            </details>
+                        </caption>
+                    </table>
+                        
+                    <input type="submit" value="Küldés" style="margin-top: 5px; margin-left: 10px;">
+                </form>
+                
+                
+            </article>
+    
+            <article>
+                <p>
+                    A sport a másik nagy „hobbim”, de inkább az extrém sportokat preferálom. 3
+                    évig fociztam és 5 évig judózottam. Az évek során megtanultam szaltózni is.
+                    Sajnos mostanában kevesebbet edzek, mert sok idő elmegy a tanulással.
+                </p>
+                <p>Ezeket a tevékenységeket szeretem kombinálni is (művészet, sport, játék).</p>
+                <p>Például, ha a focit és a fotó szerkesztést akarom kombinálni akkor csinálok egy ilyet:</p>
+                <p>Mivel sokat játszok, ezért úgy döntöttem csinálok magamnak saját logót / profilképet. </p>
+                <p><img src="kepek/moonedit-2.jpg" alt="moon" width="261" class="img-fluid"></p>
+                
+            </article>
+        </div>
+
+        <section>
+            <p>Ebből először ez lett: </p>
+            <p><img src="kepek/id.jpg" width="151" alt="az első logóm" class="img-fluid"></p>
+            <p>Majd ez:</p>
+            <p><img src="kepek/id.png" width="151" alt="a második logóm" class="img-fluid"></p>
+            <p>
+                Mivel sok embernek tetszettek ezek a képek, úgy döntöttem többet fogok ezzel foglalkozni, csinálok
+                másoknak is stb.
+            </p>
+            <p>Sok barátomnak csináltam azóta ilyeneket, és nagyon tetszett nekik a végeredmény. </p>
+        </section>
+
+    </main>
+
+
+
+
+    <footer>
+
+        
+        <div class="lablec">
+            <div class="lablec1">
+                <section><hr class="clearfix w-100 d-md-none pb-3"></section>
+                <section>
+                    <h2 id="elerhetosegek">Elérhetőségek</h2>
+                </section>
+            </div>
+    
+    
+            <div class="lablec 2">
+                <section>
+                    <table class="lablec2">
+        
+                        <tr>
+                            <td>Művész Instagram</td>
+                            <td><a href="https://www.instagram.com/cyberdragon_nft">@irondragon_art</a></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Fotós Instagram</td>
+                            <td><a href="https://www.instagram.com/cyberdragon_photo">@irondragon_photo</a> </td>
+                        </tr>
+        
+                        <tr>
+                            <td>Email</td>
+                            <td>irondragon551@gmail.com</td>
+                        </tr>
+        
+                        <tr>
+                            <td>Fiverr</td>
+                            <td><a href="https://www.fiverr.com/irondragon51" target="_blank">www.fiverr.com/irondragon51</a>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>Opensea</td>
+                            <td><a href="https://opensea.io/Cyb3rDragon" target="_blank">opensea.io/Cyb3rDragon</a></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Twitter</td>
+                            <td><a href="https://www.twitter.com/cyb3rdragon" target="_blank">twitter.com/Cyb3rDragon</a></td>
+                        </tr>
+        
+                    </table>
+                </section>
+            </div>
+        </div>
+
+
+
+
+    </footer>
+
+
+
+</body>
+
+</html>

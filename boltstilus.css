@@ -1,0 +1,217 @@
+﻿
+
+@media print{
+    .kepbolt{
+        max-width: 200px;
+        padding-left: 170px;
+        padding-right: 170px;
+        
+    }
+    .ertek{
+        padding-bottom: 400px;
+    }
+}
+
+/*desktop*/
+@media screen
+{
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'kepbolt' 'ertek'
+    'vasar'  */
+    
+    main{
+        float: left;
+        text-align: center;
+    } 
+    div .kepbolt{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        float: right;
+        text-align: justify;
+        max-width: 360px;
+        padding: 15px;
+    }
+}
+/*tab*/
+@media screen and (max-width: 710px)
+{
+    .kepbolt{
+            max-width: 300px;
+
+                
+    }
+    .ertek{float: right;}
+    
+    /* body{grid-template-columns: 1fr;
+        flex-direction: column;
+        grid-template-areas: 
+        'kepbolt' 
+        'ertek'  
+        'vasar';
+    } */
+}
+
+/*phone*/
+@media screen and (max-width: 576px)
+{
+    .kepbolt {float: right;}
+    /* body{font-size: 0.8em;}
+    body{grid-template-columns: 1fr;
+        flex-direction: column;
+        grid-template-areas: 
+        'kepbolt' 
+        'ertek'  
+        'vasar';
+    } */
+    
+    
+}
+
+
+body
+{
+    text-align: justify;
+    
+    font-size: 1.2em;
+    
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #1d1d1d;
+    color: rgb(255, 255, 255);
+    grid-template-columns: 1fr 1fr;
+    flex-direction:column;
+    grid-template-areas: 
+    'kepbolt' 'ertek'
+    'vasar';
+    
+}
+
+
+
+
+.kepbolt{
+    width: 400px;
+    grid-area: kepbolt;
+    text-align: center;
+    font-size: 2em;
+    margin: 5px 5px;
+}
+
+.ertek{
+    grid-area: ertek;
+    text-align: center;
+    margin: 5px 5px;
+}
+
+.vasarlas{
+    grid-area: vasar;
+    text-align: center;
+    margin: 5px 5px;
+    
+}
+
+main
+{
+    text-align: justify;
+    margin: 12px 12px;
+    overflow: hidden;
+    padding: 5px 5px;
+    
+    
+}
+
+h2{padding-left: 15px;
+color: gold;}
+h3{
+color: rgb(199, 184, 102);}
+
+
+header
+{
+    font-size: 1.2em;
+    background-image: url('ht.png');
+    color: rgb(228, 207, 207);
+}
+.head{
+
+    font-size: 1.2em;
+    border-collapse: separate;
+    border-spacing: 80px;
+}
+header,footer{
+    font-family: Arial, Helvetica;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.adatok{margin-top: 20px;
+    margin-bottom: 20px;}
+
+
+
+
+
+#elerhetosegek{color: rgb(209, 51, 64);}
+.lablec 
+{
+    font-size: 0.9em;
+    height: 200px;
+    margin-top: 3em;
+}
+.lablec1
+{
+    text-transform:uppercase;
+    text-align: center;
+}
+.lablec2
+{
+    margin-top: 4px;
+    border-collapse: separate;
+    border-spacing: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+
+
+
+
+a:link {
+    color: rgb(185, 8, 8);
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}

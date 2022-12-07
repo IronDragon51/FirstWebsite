@@ -1,0 +1,309 @@
+﻿
+body
+{
+    text-align: justify;
+    margin: 0;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #2f382e;
+}
+
+
+.head{
+    
+    font-size: 1.2em;
+    border-collapse: separate;
+    border-spacing: 80px;
+}
+header
+{
+    background-image: url('ht.png');
+    background-blend-mode: luminosity;
+    
+    color: rgb(228, 207, 207);
+}
+
+header,footer{
+    
+    font-family: Arial, Helvetica;
+}
+
+main
+{
+    text-align: justify;
+    
+}
+
+footer
+{
+    margin-top: 5em;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(185, 8, 8);
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+nav
+{
+    visibility: hidden;
+
+}
+
+aside
+{
+    text-align: right;
+}
+
+figure
+{
+    text-align: right;
+}
+figcaption
+{
+    text-align: center;
+}
+
+
+.lablec 
+{
+    font-size: 0.9em;
+    height: 200px;
+    margin-top: 3em;
+}
+.lablec1
+{
+    text-transform:uppercase;
+    text-align: center;
+}
+.lablec2
+{
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+    margin-top: 4px;
+    border-collapse: separate;
+    border-spacing: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+
+
+div.gallery {
+    height: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    float: unset;
+    padding-bottom: 35px;
+    
+  }
+  
+  div.gallery img:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    height: 180px;
+    width: auto;
+  }
+  
+  div.desc {
+    padding: 155px;
+    text-align: center;
+  }
+
+
+
+
+.galeria
+{
+    gap: 16px;
+    
+    
+    
+    
+    
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+
+#bubble{grid-area: bubble;
+overflow: hidden;
+}
+#city{grid-area: city;
+    
+    overflow: hidden;
+}
+#qb{grid-area: qb;
+    overflow: hidden;
+}
+#char{grid-area: char;
+    overflow: hidden;
+}
+
+#en1{grid-area: en1;
+    overflow: hidden;
+}
+#pdr{grid-area: pdr;
+    overflow: hidden;
+}
+#car{grid-area: car;
+    overflow: hidden;
+}
+#beka{grid-area: beka;
+    overflow: hidden;
+}
+
+#sgc{grid-area: sgc;
+    overflow: hidden;
+}
+#kikot{grid-area: kikot;
+    overflow: hidden;
+}
+#skull{grid-area: skull;
+    overflow: hidden;
+}
+#en2{grid-area: en2;
+    overflow: hidden;
+}
+
+
+.g1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'bubble city qb char' 
+    'en1 pdr car beka'
+    'sgc kikot skull en2';
+}
+
+
+
+
+/*desktop*/
+/* @media screen and (max-width: 1200px)
+{
+    .g1{grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:  
+        'bubble city qb' 
+        'char en1 pdr' 
+        'car beka sgc' 
+        'kikot skull en2';
+    }
+    
+}
+/*tab*/
+@media screen and (max-width: 992px)
+{
+    .g1{grid-template-columns: 1fr 1fr;
+        grid-template-areas:  
+        'bubble city' 'qb char' 
+        'en1 pdr' 'car beka' 
+        'sgc kikot' 'skull en2';
+    }
+    
+    
+    
+}
+
+/*phone*/
+/* {
+@media screen and (max-width: 576px)
+    #tartalom{font-size: 0.8em;}
+    .g1{grid-template-columns: 1fr;
+        grid-template-areas: 
+        'bubble' 
+        'city' 
+        'qb' 
+        'char' 
+        'en1' 
+        'pdr' 
+        'car' 
+        'beka' 
+        'sgc' 
+        'kikot' 
+        'skull' 
+        'en2';
+    }
+    .galeria
+    {
+        gap: 16px;
+        
+        
+        
+        
+        
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    .fejlec{
+        font-size: 0.8em;}
+    #hidden{display: none;
+    }
+    
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:link {
+    color: rgb(185, 8, 8);
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
